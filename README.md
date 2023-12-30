@@ -20,6 +20,8 @@ Then run
 sudo systemctl restart NetworkManager
 ```
 
+⚠️ Sometimes kindle restart is required else ssh won't work.
+
 ### Personal notes:
 `ssh root@192.168.15.244`
 Should work right out of the box.
