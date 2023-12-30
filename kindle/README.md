@@ -38,6 +38,10 @@ switch back to a writable rootfs.
 #################################################
 [root@kindle root]# 
 ```
+You can now copy files:
+```
+scp book.epub root@192.168.15.244:/mnt/us/documents
+```
 
 Kindle K4 Jailbreak
 ====================
