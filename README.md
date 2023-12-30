@@ -17,6 +17,14 @@ Straight to the point:
 `ifconfig -a` should yield `enxee4900000000
 then run:   
 `sudo ifconfig enxee4900000000 192.168.15.201`
+
+On Ubuntu this sometimes takes one minute or two before this appears in the settings, then you're good to go! ![pci_ethernet](https://github.com/cyrillkuettel/docs/assets/36520284/e569948b-4f03-4cef-acf2-1225625decb4).
+
+this may help but I'm not 100% sure:
+```bash
+sudo systemctl restart NetworkManager
+```
+
  ssh root@192.168.15.244`
  
  Should be welcomed by the following banner.
