@@ -1,0 +1,10 @@
+
+# zsh terminal line
+
+
+# the keyboard shortcuts 
+
+- for autocomplete: ctrl+n
+- for cycling through autosuggestions are `ctrl-n` to move to the next
+  suggestion and `ctrl-p` to move to the previous suggestion.
+  
