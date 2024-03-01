@@ -1,11 +1,15 @@
 # docs
 
-tl, dr after jailbreak:
-```bash
-ssh framework@192.168.15.244
-# password is mario
-Now you are in and can add your ssh public key for convenience
+## From a new computer
+This setup works right out of the box to setup public key:
+Telnet is installed [[source]](https://www.mobileread.com/forums/showpost.php?p=3693182&postcount=15) from [here](https://www.mobileread.com/forums/showthread.php?t=295753) easier to use:
 ```
+telnet 192.168.15.244
+mntroot rw
+cd /mnt/us/usbnet/etc
+# just put your pub key in authorized_keys...
+```
+
 
 The following is a collection of notes for jailbreaking an amazon kindle.  
 There is no structure.  
