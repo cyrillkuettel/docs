@@ -1,5 +1,12 @@
 # docs
 
+tl, dr after jailbreak:
+```bash
+ssh framework@192.168.15.244
+# password is mario
+Now you are in and can add your ssh public key for convenience
+```
+
 The following is a collection of notes for jailbreaking an amazon kindle.  
 There is no structure.  
 A long, rambling stream of consciousness of gathered information hoping to be useful. 
